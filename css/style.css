@@ -1,0 +1,167 @@
+*{
+MARGIN:0px;
+padding:0px;
+}
+
+html{
+min-height:100%;
+height:100%;
+}
+
+body{
+width:100%;
+height:100%;
+min-height:100%;
+font-family: 'Play', sans-serif;
+font-size:18px;
+}
+h1{
+font-size:78px;
+}
+.sidebar{
+  min-height: 100%;
+  width: 19%;
+  background: #3d3d3d;
+  color: #fff;
+  border-right: 1% solid grey;
+  display: block;
+  position: absolute;
+  left: -10%;
+  opacity: 0.3;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
+  -ms-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+}
+.sidebar:hover{
+opacity:1;
+left:0;
+}
+
+.sidebar .inside{
+	padding:20px;
+}
+
+.wrapper{
+min-height:100%;
+color:#c3c3c3;
+display:block;
+float:left;
+width:100%;
+background:url(jirones2.jpeg) no-repeat center top;
+background-size:cover;
+}
+
+.hello{
+	text-align:center;
+	padding:10%;
+	width:80%;
+	margin:0 auto;
+}
+.hello h1{
+color:#c3c3c3;
+}
+
+a{
+color:red;
+}
+.hello a.enter{
+	color:red;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+form{
+display:block;
+width:506px;
+	margin:0 auto;
+position:relative;
+padding-top:12%;
+-webkit-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-ms-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+transition:all 0.5s ease;
+
+}
+form label.errr{
+color: red;
+  margin-bottom: 6%;
+  display: block;
+}
+
+form label.error{
+font-size: 14px!important;
+  color: red;
+  display: block;
+}
+
+form input{
+	width:300px;
+	background:#fff;
+	font-family: 'Play', sans-serif;
+	font-size:16px;
+	padding:10px 1%;
+	border:none;
+	outline:none;
+	margin-bottom:10px;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+form input[type='submit']{
+	width:306px;
+}
+
+form input.novalid{
+  outline: 2px solid red;
+}
+form input.valid{
+  outline: 2px solid deepskyblue;
+}
+a.logout{
+  width: 80%;
+  background: #fff;
+  font-family: 'Play', sans-serif;
+  font-size: 16px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  display: block;
+  left: 10%;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20%;
+  color: #fff;
+}
+
+
+form.unvis{
+	opacity:0;
+	left:-90%;
+}
+
+.alert{
+	display: block;
+	  position: absolute;
+	  top: 40%;
+	  left: 40%;
+	  width: 20%;
+	  height: 3%;
+	  box-shadow: 5px 5px 20px #c3c3c3;
+	  border: 1px solid #c3c3c3;
+	  padding: 5%;
+	  text-align: center;
+}
+
+.close{
+  position: absolute;
+  bottom: -68%;
+  right: -20%;
+}
